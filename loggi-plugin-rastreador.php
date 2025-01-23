@@ -103,7 +103,7 @@ function loggi_track_order() {
         wp_send_json_error(['message' => 'O código de rastreamento está vazio.']);
     }
 
-    // Mensagens específicas para os códigos fornecidos
+    // Mensagens específicas para os códigos fornecidos. Pode ser adicionado mais códigos com mensagens especificas para cada código.
     $custom_codes = [
         'LBRESNC4' => 'Sua encomenda chegou no centro de distribuição de São Paulo',
         'K24GHEU' => 'Sua encomenda está aguardando na base logística.',
