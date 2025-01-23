@@ -107,7 +107,8 @@ function loggi_track_order() {
     $custom_codes = [
         'LBRESNC4' => 'Sua encomenda chegou no centro de distribuição de São Paulo',
         'K24GHEU' => 'Sua encomenda está aguardando na base logística.',
-        'K2SVG110' => 'Seu pedido chegou em uma base e logo sairá para entrega'
+        'K2SVG110' => 'Seu pedido chegou em uma base e logo sairá para entrega',
+        'ST14T253' => 'Seu pedido saiu para entrega ao destino'
     ];
 
     if (array_key_exists($tracking_code, $custom_codes)) {
