@@ -104,7 +104,7 @@ function loggi_track_order() {
     }
 
     // Mensagens específicas para os códigos fornecidos. Pode ser adicionado mais códigos com mensagens especificas para cada código.
-    $custom_codes = [
+    $custom_codes =
         'LBRESNC4' => 'Sua encomenda chegou no centro de distribuição de São Paulo',
         'K24GHEU' => 'Sua encomenda está aguardando na base logística.',
         'K2SVG110' => 'Seu pedido chegou em uma base e logo sairá para entrega',
