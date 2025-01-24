@@ -101,6 +101,7 @@ function loggi_track_order() {
 
     if (empty($tracking_code)) {
         wp_send_json_error(['message' => 'O código de rastreamento está vazio.']);
+        
     }
 
     // Mensagens específicas para os códigos fornecidos. Pode ser adicionado mais códigos com mensagens especificas para cada código.
@@ -109,6 +110,7 @@ function loggi_track_order() {
         'K24GHEU' => 'Sua encomenda está aguardando na base logística.',
         'K2SVG110' => 'Seu pedido chegou em uma base e logo sairá para entrega',
         'ST14T253' => 'Seu pedido saiu para entrega ao destino'
+
     ];
 
     if (array_key_exists($tracking_code, $custom_codes)) {
