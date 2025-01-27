@@ -25,7 +25,7 @@ function loggi_tracking_form() {
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 5px;
-            background-color: #f9f9f9;
+            background-color: #f9f9f9;0
         }
         .status-message {
             font-size: 16px;
@@ -109,7 +109,8 @@ function loggi_track_order() {
         'LBRESNC4' => 'Sua encomenda chegou no centro de distribuição de São Paulo',
         'K24GHEU' => 'Sua encomenda está aguardando na base logística.',
         'K2SVG110' => 'Seu pedido chegou em uma base e logo sairá para entrega',
-        'ST14T253' => 'Seu pedido saiu para entrega ao destino'
+        'ST14T253' => 'Seu pedido saiu para entrega ao destino',
+        'STFJ2514' => 'Teste'
 
     ];
 
